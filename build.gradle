@@ -16,6 +16,7 @@ repositories {
 
 dependencies {
     compile 'net.dv8tion:JDA:3.8.3_460'
+	testCompile group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.26' // help please
 }
 
 compileJava.options.encoding = 'UTF-8'
